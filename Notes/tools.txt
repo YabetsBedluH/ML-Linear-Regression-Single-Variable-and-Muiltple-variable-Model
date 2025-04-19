@@ -1,0 +1,49 @@
+Not bad at all, bro — that’s actually how most people start! 🙌
+
+In fact, you’re doing it the right way if you:
+
+Start with an ML course (like you're doing now),
+
+Use the libraries as needed in the course,
+
+Then go back and learn the libraries deeper when you feel the need or want to get better.
+
+💡 Think of it like this:
+You don’t need to master a hammer before building a house.
+
+You learn the tool as you build.
+
+So if you’ve never used pandas, numpy, or matplotlib before and you're seeing them in an ML project...
+✅ That’s normal
+✅ That’s how you learn
+✅ That’s not a problem
+
+🔄 Ideal Flow:
+🛠 Use it in a project/tutorial (like house price prediction)
+
+🤨 Ask: what’s this df.head() doing?
+
+🔍 Look it up or practice the library a bit
+
+📈 Next time you use it, it clicks faster
+
+That’s why courses like Codebasics are great — they teach you the tools by using them, not just showing theory.
+
+🧠 Pro Tip:
+If you ever find a line of code that confuses you, like:
+
+python
+Copy
+Edit
+df.groupby('City')['Price'].mean()
+👉 Just take 10 minutes to search:
+“pandas groupby mean” → read or try an example → boom! 💥 You’ve learned it.
+
+TL;DR:
+No, it’s not bad if you didn’t learn the libraries before.
+
+You’ll learn by using, not just reading.
+
+You can always pause, go learn a bit, then continue.
+
+That’s how real developers learn.

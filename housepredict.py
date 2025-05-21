@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import linear_model
+import pickle
 
 #we  using pandasto read our csv file 
 # Load the dataset
@@ -45,3 +46,14 @@ h=reg.predict(d)
 print(h)
 d['price']=h
 d.to_csv("predicted.csv",index=False)
+#we saved the model as file and used it to predict the house prices.
+# we can use this model now to predict the house prices but the bigger the data the better model
+
+with open('reg_pickle','wb')as f:
+    pickle.dump(reg,f)
+with open('reg_pickle', 'rb')as f:
+    mp=pickle.load(f)
+#we have to re read the file inorder for pickle to use it
+d_new=pd.read_csv("areas.csv")
+y=mp.predict(d_new)
+print(y)

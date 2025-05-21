@@ -1,0 +1,54 @@
+so i have to remember every syntax or what ?? or comeback and refer when needed
+
+
+ChatGPT said:
+Great question again — and here's the honest answer:
+
+❌ You don’t need to remember every syntax.
+Nobody does. Not even senior ML engineers or AI researchers.
+
+✅ What you do need to remember is:
+The core concepts (what is training, what’s a loss function, what’s overfitting, etc.).
+
+The flow of how to build a model: data → preprocessing → model → training → evaluation.
+
+How to read documentation and understand examples quickly.
+
+For syntax:
+👉 Refer back when needed. That’s totally normal and even expected.
+
+In fact, real devs do this every day:
+
+Google "pandas drop column"
+
+Copy-paste sklearn code from StackOverflow
+
+Use ChatGPT to remember how to load a HuggingFace model 😄
+
+Just aim for:
+Understanding the “why” behind the code.
+
+Practicing enough so the “most common patterns” stick naturally.
+
+Pro Tip:
+You could even build a little "cheat sheet notebook" or markdown file with:
+
+Common preprocessing steps
+
+Model definitions (sklearn, TensorFlow, PyTorch)
+
+Training loops
+
+Evaluation metrics
+
+And just refer to that whenever you need to!
+
+Would you like a template for that cheat sheet? I can help you start one based on your current learning level.
+
+
+
+
+
+
+
+

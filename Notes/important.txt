@@ -1,0 +1,87 @@
+ am learning ml with code baics on youtube the thing is he is using simple csv files and staff to train his model the question i have is that i understand and also code evrything he says but in the future i might never create my own model be cause of cost so is it a better idea just to understand and then move on learing how to use and customise pre trained models or should i be able to code and build a model by myself
+
+
+ChatGPT said:
+That's a very good question, and honestly one that many people struggle with when getting into machine learning. Here's a balanced take that should help you decide:
+
+✅ What You're Doing Now (Learning from CSVs, building basic models):
+This is super valuable, even if you don’t end up training your own models from scratch in the future. Here’s why:
+
+Foundational knowledge: Understanding how data flows, how models learn, and how loss/accuracy changes gives you insight into why a model works (or fails).
+
+Debugging skills: When using pre-trained models, things often go wrong. Knowing how things work under the hood helps you debug effectively.
+
+Customizing models: Even with pre-trained models, you'll often need to fine-tune, retrain, or modify them. That requires model-building knowledge.
+
+🤖 Pre-Trained Models (The Future for Most Practical Use):
+You're 100% right that in real-world projects, especially as a solo dev or startup:
+
+You usually won't train from scratch (it’s costly and time-consuming).
+
+You’ll use pre-trained models (e.g., OpenAI models, HuggingFace models, TensorFlow Hub, etc.).
+
+The skill is in fine-tuning, prompt engineering, or transfer learning, not training a huge model from zero.
+
+🔥 So What Should You Do?
+Here’s a roadmap I’d recommend:
+
+Keep doing what you’re doing right now. You’re gaining intuition and confidence. That’s gold.
+
+Once you finish the course:
+
+Learn about transfer learning (using pre-trained models for your tasks).
+
+Play with models from HuggingFace, TensorFlow Hub, or ONNX.
+
+Try using models like Whisper, YOLO, BERT, etc., in real mini-projects.
+
+Eventually, explore model fine-tuning and how to tweak hyperparameters or architecture if needed.
+
+Summary:
+✅ Yes, keep learning to code ML models from scratch—it builds intuition.
+
+✅ But focus more on using and customizing pre-trained models for real-world work.
+
+🔁 It’s not “either/or.” Learn both, but spend more time later on real-world usage.
+
+If you want, I can suggest pre-trained models based on the kind of projects you want to build. What kind of ML apps are you dreaming of building?
+
+
+
+
+
+
+
+You said:
+so now it is about building the base how they work but in the real world it is about playing with pre trained models
+
+
+ChatGPT said:
+Exactly, you nailed it 💯
+
+Right now:
+You're building the base—learning how models work, how to prepare data, train, evaluate, etc. This gives you the power to:
+
+Understand why a model is behaving a certain way.
+
+Fix things when they go wrong.
+
+Know what kind of model fits which kind of data/task.
+
+In the real world:
+You’ll mostly be playing with pre-trained models:
+
+Picking the right one for your problem.
+
+Feeding it the right input.
+
+Tweaking it (fine-tuning or prompt engineering).
+
+Plugging it into your app.
+
+Think of it like this:
+
+🔧 You're learning to build engines now.
+🏎️ Later, you’ll be driving powerful cars (pre-trained models) and tuning them to race the way you want.
+
+If you keep that mindset, you’re on the perfect path. Want help finding a good pre-trained model or small project idea to try one out?
